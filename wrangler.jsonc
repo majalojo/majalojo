@@ -4,11 +4,5 @@
   "assets": {
     "directory": "./dist",
     "not_found_handling": "single-page-application"
-  },
-"routes": [
-		{
-			"pattern": "majalojo.net",
-			"custom_domain": true
-		}
-	]
+  }
 }
