@@ -44,8 +44,8 @@
 }
 
 .divHeading{
-    display: block;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 6%;
 
 }
