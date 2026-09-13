@@ -9,10 +9,11 @@ import Linkovi from "./Linkovi.jsx";
 
 
 const App = () => {
+  const storage = import.meta.env.VITE_OBJECTSTORAGE;
   return (
     <>
       <div className="divMain">
-        <Image src="https://majalojo.net/Maja.png" fluid className="imgMain" />
+        <Image src={`${storage}/Maja.png`} fluid className="imgMain" />
         <div className="divHeading">
           <h1 className="heading">Maja Lojo</h1>
         </div>
@@ -44,3 +45,4 @@ const App = () => {
 
 }
 export default App;
+

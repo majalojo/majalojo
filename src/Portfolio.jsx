@@ -3,9 +3,10 @@ import { FaRegHandPointRight } from "react-icons/fa6";
 
 const Portfolio = () => {
 
+    const storage = import.meta.env.VITE_OBJECTSTORAGE;
     const portfolioArray = [
-        { id: 1, naziv: "Web stranica", slika: "https://majalojo.net/Desktop.png", link:"https://www.bunjogrupacija.ba/", linkCaption:"Web", linkCaption2:"", link2:"", techStack: [".NET Core Web API", "React", "SignalR", "TanStack Query", "R2 Object Storage"], opis: "Zvanična web stranica za autokuću Bunjo Grupacija d.o.o. Sarajevo." },
-        { id: 2, naziv: "Mobilna aplikacija", slika: "https://majalojo.net/Mobilna.png", link:"https://apps.apple.com/us/app/bunjo/id6748915261", linkCaption:"Apple Store", linkCaption2:"Google Play Store", link2:"https://play.google.com/store/apps/details?id=com.majalojo.bunjogrupacijapk&pcampaignid=web_share", techStack: ["React Native", "Expo", "SignalR", "Azure WebJob", "TanStack Query", "R2 Object Storage"], opis: "Zvanična mobilna aplikacija za autokuću Bunjo Grupacija d.o.o. Sarajevo." }
+        { id: 1, naziv: "Web stranica", slika: `${storage}/Desktop.png`, link:"https://www.bunjogrupacija.ba/", linkCaption:"Web", linkCaption2:"", link2:"", techStack: [".NET Core Web API", "React", "SignalR", "TanStack Query", "R2 Object Storage"], opis: "Zvanična web stranica za autokuću Bunjo Grupacija d.o.o. Sarajevo." },
+        { id: 2, naziv: "Mobilna aplikacija", slika: `${storage}/Mobilna.png`, link:"https://apps.apple.com/us/app/bunjo/id6748915261", linkCaption:"Apple Store", linkCaption2:"Google Play Store", link2:"https://play.google.com/store/apps/details?id=com.majalojo.bunjogrupacijapk&pcampaignid=web_share", techStack: ["React Native", "Expo", "SignalR", "Azure WebJob", "TanStack Query", "R2 Object Storage"], opis: "Zvanična mobilna aplikacija za autokuću Bunjo Grupacija d.o.o. Sarajevo." }
     ];
 
     return (
