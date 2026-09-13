@@ -93,7 +93,7 @@ const Kontakt = () => {
 
         {stanje === "poslano" && (
           <Alert variant="success" className="kontakt-alert">
-            Poruka je poslana. Odgovor stiže na adresu koju si ostavio.
+            Poruka je poslana uspješno. Hvala ti na javljanju, čujemo se ubrzo!
           </Alert>
         )}
 
