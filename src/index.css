@@ -179,5 +179,103 @@
 }
 
 
+.divKontakt {
+  --k-ink: #13232e;
+  --k-muted: #5b6f7a;
+  --k-rail: #cbd5da;
+  --k-accent: lightskyblue;
+
+  margin-top: 8%;
+  padding: 3.5rem 1.5rem;
+}
+
+.kontakt-naslov {
+  margin: 0 0 0.5rem;
+  font-weight: 300;
+  font-size: 30px;
+  color: var(--k-ink);
+}
+
+.kontakt-uvod {
+  margin: 0 0 2.5rem;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--k-muted);
+}
+
+.polje {
+  margin-bottom: 1.75rem;
+}
+
+.polje .form-label {
+  margin-bottom: 0.35rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--k-muted);
+}
+
+.polje .form-control {
+  padding: 0.35rem 0;
+  border: 0;
+  border-bottom: 1px solid var(--k-rail);
+  border-radius: 0;
+  background: transparent;
+  font-size: 1rem;
+  color: var(--k-ink);
+  transition: border-color 0.15s ease;
+}
+
+.polje .form-control:focus {
+  border-bottom-color: var(--k-accent);
+  box-shadow: none;
+  background: transparent;
+}
+
+.polje textarea.form-control {
+  resize: vertical;
+  line-height: 1.6;
+}
+
+
+.polje .form-control.is-invalid,
+.polje .form-control.is-valid {
+  background-image: none;
+  padding-right: 0;
+}
+
+.polje .form-control.is-valid {
+  border-bottom-color: var(--k-rail);
+}
+
+.polje .invalid-feedback {
+  font-size: 0.8125rem;
+}
+
+.dugmeKontakt.btn {
+  margin-top: 0.5rem;
+  padding: 0.7rem 1.75rem;
+  border: 0;
+  color:#000;
+  border-radius: 2rem;
+  background: var(--k-accent);
+  font-weight: 500;
+}
+
+
+
+.kontakt-alert {
+  margin-top: 1.5rem;
+  border: 0;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.divLinkovi{
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  
+}
+
 
 

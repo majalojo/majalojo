@@ -10,8 +10,8 @@ const Portfolio = () => {
 
     return (
         <>
-            <div className="mb-5" style={{ justifyItems: "center" }}>
-                <h1 style={{fontWeight:"lighter"}}>Portfolio</h1>
+            <div className="mb-5" style={{padding:"1.5rem"}}>
+                <h1 style={{fontWeight:"lighter", fontSize:"30px"}}>Portfolio</h1>
             </div>
             <div className="divPortfolio">
                 {
@@ -23,7 +23,7 @@ const Portfolio = () => {
                                     {p.techStack.map(t => (
                                         <Badge className="mx-1" bg="secondary" >{t}</Badge>
                                     ))}
-                                    <Card.Text>
+                                    <Card.Text style={{fontWeight:"lighter"}}>
                                         {p.opis}
                                     </Card.Text>
                                     <CardLink as="a" href={p.link} target="_blank" rel="noreferrer noopener preconnect" className="openLink">

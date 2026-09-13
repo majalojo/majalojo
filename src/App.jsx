@@ -4,6 +4,8 @@ import Portfolio from "./Portfolio.jsx";
 import TechStack from "./TechStack.jsx";
 import Angazmani from "./Angazmani.jsx";
 import Timeline from "./Timeline.jsx";
+import Kontakt from "./Kontakt.jsx";
+import Linkovi from "./Linkovi.jsx";
 
 
 const App = () => {
@@ -26,6 +28,14 @@ const App = () => {
 
         <div>
           <Portfolio />
+        </div>
+        
+        <div>
+          <Kontakt />
+        </div>
+
+        <div>
+          <Linkovi />
         </div>
       </div>
     </>

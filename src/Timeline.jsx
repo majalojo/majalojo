@@ -5,14 +5,19 @@ const zadano = [
   {
     godina: "2022. - 2023.",
     naziv: "Team Leader volontera MIT Centra na EFSA UNSA",
-    opis: "Tehnička podrška nastavnom procesu na EFSA UNSA te učestvovanje u projektima za Fakultet.",
+    opis: "Tehnička podrška nastavnom procesu na EFSA UNSA te učestvovanje u projektima za Fakultet",
   },
   {
-    godina: "2023. - ",
+    godina: "2023. -  2026. ",
     naziv: "Web & Mobile Developer - Full Stack Engineer",
-    opis: "Razvijam web i mobilne aplikacije.",
-    zaposlenje:"JP BH Pošta d.o.o. Sarajevo"
+    opis: "Freelance angažmani",
   },
+  {
+    godina: "2026. - ",
+    naziv: "Stručni saradnik - programer",
+    opis: "Razvoj i održavanje aplikativnih rješenja "
+  },
+
   
 ];
 
