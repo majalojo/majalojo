@@ -20,10 +20,10 @@ const Kontakt = () => {
 
     emailjs
       .sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_SERVICE_ID,
+        import.meta.env.VITE_TEMPLATE_ID,
         form.current,
-        { publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY }
+        { publicKey: import.meta.env.VITE_PUBLIC_KEY }
       )
       .then(() => {
         setStanje("poslano");
@@ -99,8 +99,7 @@ const Kontakt = () => {
 
         {stanje === "greska" && (
           <Alert variant="danger" className="kontakt-alert">
-            Slanje nije uspjelo. Pokušaj ponovo za koji minut ili piši direktno na
-            tvojmail@domena.ba
+            Slanje nije uspjelo.
           </Alert>
         )}
       </Form>
