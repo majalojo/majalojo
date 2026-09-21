@@ -4,11 +4,11 @@ import { VscAzure } from "react-icons/vsc";
 
 const TechStack = () => {
   const techStack = [
-    { id: 1, naziv: ".NET Core & Framework", icon: <PiFileCSharpFill size={30} color="green" /> },
-    { id: 2, naziv: "React & React Native", icon: <FaReact size={30} color="lightblue" /> },
-    { id: 3, naziv: "SQL (MSSQL, MySQL)", icon: <PiFileSqlFill size={30} color="orange" /> },
-    { id: 4, naziv: "Azure", icon: <VscAzure size={30} color="blue" /> },
-    { id: 5, naziv: "GitHub (Git)", icon: <FaGithub size={30} color="black" /> },
+    { id: 1, naziv: ".NET Core & Framework", icon: <PiFileCSharpFill size={40} color="green" /> },
+    { id: 2, naziv: "React & React Native", icon: <FaReact size={40} color="lightblue" /> },
+    { id: 3, naziv: "SQL (MSSQL, MySQL)", icon: <PiFileSqlFill size={40} color="orange" /> },
+    { id: 4, naziv: "Azure", icon: <VscAzure size={40} color="blue" /> },
+    { id: 5, naziv: "GitHub (Git)", icon: <FaGithub size={40} color="black" /> },
   ];
 
   const petlja = [...techStack, ...techStack];

@@ -50,10 +50,10 @@ const Kontakt = () => {
         onSubmit={sendEmail}
       >
         <Form.Group className="polje" controlId="user_name">
-          <Form.Label>Ime:</Form.Label>
+          <Form.Label>Ime (ne treba prezime):</Form.Label>
           <Form.Control type="text" name="user_name" required disabled={salje} />
           <Form.Control.Feedback type="invalid">
-            Upiši svoje ime.
+            Upiši svoje ime (ne treba prezime).
           </Form.Control.Feedback>
         </Form.Group>
 
@@ -61,7 +61,7 @@ const Kontakt = () => {
           <Form.Label>Email adresa na koju očekuješ moj odgovor:</Form.Label>
           <Form.Control type="email" name="user_email" required disabled={salje} />
           <Form.Control.Feedback type="invalid">
-            Upiši ispravnu email adresu, npr. ime@domena.ba
+            Upiši ispravnu email adresu, ispravan oblik: naziv@domena.ba
           </Form.Control.Feedback>
         </Form.Group>
 
@@ -76,7 +76,7 @@ const Kontakt = () => {
             disabled={salje}
           />
           <Form.Control.Feedback type="invalid">
-            Poruka treba imati bar 10 znakova.
+            Poruka treba imati najmanje 10 znakova.
           </Form.Control.Feedback>
         </Form.Group>
 
@@ -84,7 +84,7 @@ const Kontakt = () => {
           {salje ? (
             <>
               <Spinner as="span" animation="border" size="sm" className="me-2" />
-              Šalje se
+              Tvoja poruka se šalje...
             </>
           ) : (
             "Pošalji poruku"
@@ -99,7 +99,7 @@ const Kontakt = () => {
 
         {stanje === "greska" && (
           <Alert variant="danger" className="kontakt-alert">
-            Slanje nije uspjelo.
+            Slanje nije uspjelo, probaj opet!
           </Alert>
         )}
       </Form>
