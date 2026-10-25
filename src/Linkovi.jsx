@@ -13,10 +13,10 @@ const Linkovi = () => {
                 <a style={{ color: "black", textDecoration: "none" }} href={github} target="_blank">
                     <FaGithub size={24} />
                 </a>
-                <a style={{ color: "#0077B5", textDecoration: "none", marginRight:"2%", marginLeft:"2%" }} href={linkedin} target="_blank">
+                <a style={{ color: "#0077B5", textDecoration: "none", marginRight: "2%", marginLeft: "2%" }} href={linkedin} target="_blank">
                     <FaLinkedin size={26} />
                 </a>
-                 <a style={{ color: "#000000", textDecoration: "none" }} href={devto} target="_blank">
+                <a style={{ color: "#000000", textDecoration: "none" }} href={devto} target="_blank">
                     <FaDev size={26} />
                 </a>
             </div>
