@@ -38,9 +38,6 @@ const Kontakt = () => {
   return (
     <div className="divKontakt">
       <h2 className="kontakt-naslov">Kontaktiraj me</h2>
-      <p className="kontakt-uvod">
-        Odgovaram u roku od dan-dva. Ostavi par rečenica o tome šta te zanima.
-      </p>
 
       <Form
         noValidate

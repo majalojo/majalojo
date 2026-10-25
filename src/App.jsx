@@ -14,6 +14,9 @@ const App = () => {
     <>
       <div className="divMain">
         <Image src={`${storage}/Maja.png`} fluid className="imgMain" />
+        <div>
+          <Linkovi />
+        </div>
         <div className="divHeading">
           <h1 className="heading">Maja Lojo</h1>
         </div>
@@ -35,9 +38,7 @@ const App = () => {
           <Kontakt />
         </div>
 
-        <div>
-          <Linkovi />
-        </div>
+        
       </div>
     </>
 
