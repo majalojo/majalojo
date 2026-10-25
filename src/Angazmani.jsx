@@ -27,7 +27,7 @@ const Angazmani = () => {
                         <Col md={6}>
                             <Badge bg="secondary">{a.icon} {a.badge}</Badge>
                             <h1 style={{fontSize:"30px"}}>{a.naziv}</h1>
-                            <p style={{fontWeight:"lighter"}}>{a.opis}</p>
+                            <p>{a.opis}</p>
                             {a.link ? <a className="openLink" target="_blank" rel="noreferrer noopener preconnect" href={a.link}> <FaRegHandPointRight size={16} color="black" /> Pročitaj detalje</a> : null}
                         </Col>
                     </Row>

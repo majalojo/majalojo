@@ -24,7 +24,7 @@ const Portfolio = () => {
                                     {p.techStack.map(t => (
                                         <Badge className="mx-1" bg="secondary" >{t}</Badge>
                                     ))}
-                                    <Card.Text style={{fontWeight:"lighter"}}>
+                                    <Card.Text>
                                         {p.opis}
                                     </Card.Text>
                                     <CardLink as="a" href={p.link} target="_blank" rel="noreferrer noopener preconnect" className="openLink">
