@@ -22,11 +22,11 @@ const Angazmani = () => {
                         className={`align-items-center my-2 p-5 ${i % 2 === 1 ? "flex-row-reverse" : ""}`}
                     >
                         <Col md={6}>
-                            <Image src={a.slika} fluid className="w-100 imgAngazman" />
+                            <Image src={a.slika} fluid className="w-50 imgAngazman" />
                         </Col>
                         <Col md={6}>
                             <Badge bg="secondary">{a.icon} {a.badge}</Badge>
-                            <h1 style={{fontSize:"30px"}}>{a.naziv}</h1>
+                            <h1 style={{fontSize:"20px"}}>{a.naziv}</h1>
                             <p>{a.opis}</p>
                             {a.link ? <a className="openLink" target="_blank" rel="noreferrer noopener preconnect" href={a.link}> <FaRegHandPointRight size={16} color="black" /> Pročitaj detalje</a> : null}
                         </Col>
