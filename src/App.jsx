@@ -9,11 +9,9 @@ import Linkovi from "./Linkovi.jsx";
 
 
 const App = () => {
-  const storage = import.meta.env.VITE_OBJECTSTORAGE;
   return (
     <>
       <div className="divMain">
-        <Image src={`${storage}/Maja.png`} fluid className="imgMain" />
         <div>
           <Linkovi />
         </div>
@@ -37,8 +35,6 @@ const App = () => {
         <div>
           <Kontakt />
         </div>
-
-        
       </div>
     </>
 
